@@ -24,9 +24,9 @@ app.use(cookieParser());
 /* --------------------------- Enable CORS --------------------------- */
 
 // 1. Very Ambiguous CORS policy (bad)
- app.use(cors({
-   origin: '*'
- }));
+//  app.use(cors({
+//    origin: '*'
+//  }));
 
 // 2. Less-Ambiguous CORS policy - allow malicious app (okay, but still not good)
 // app.use(cors({
